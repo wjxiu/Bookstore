@@ -43,8 +43,9 @@
 		</div>
 		<div style="text-align: center">
 			<c:if test="${sessionScope.cart.totalCount>0}">
-			<span>您的购物车中有${sessionScope.cart.totalCount}件商品</span>
+
 			<div>
+				<span>您的购物车中有${sessionScope.cart.totalCount}件商品</span>
 				您刚刚将<span style="color: red">${sessionScope.LastName}</span>加入到了购物车中
 			</div>
 			</c:if>
@@ -98,7 +99,7 @@
 
 <div id="bottom">
 		<span>
-			尚硅谷书城.Copyright &copy;2015
+			尚硅谷书城.Copyright &copy;2022
 		</span>
 </div>
 </body>
